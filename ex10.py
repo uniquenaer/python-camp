@@ -13,14 +13,23 @@ I'll do list:
 \t* Catnip\n\t* Grass
 '''
 
-print tabby_cat
+print(tabby_cat)
 
-print presian_cat
+print(presian_cat)
 
-print backslash_cat
+print(backslash_cat)
 
-print fat_cat
+print(fat_cat)
 
-print "what are you doing? %r" % tabby_cat
+print(f"what are you doing? {tabby_cat}")
 
-print "what are you doing? %s" % tabby_cat
+print("what this mean?\aASCLL bell")
+
+print("what this mean?\bASCLL backspace")
+
+print("what this mean?\fASCLL formfeed")
+
+print("what this mean?\rReturn")
+
+print("test")
+

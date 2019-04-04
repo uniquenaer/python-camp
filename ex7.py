@@ -1,10 +1,10 @@
-print "Mary had a little lamb."
+print("Mary had a little lamb.")
 
-print "Its fleece was white as %s." % 'snow'
+print("Its fleece was white as {}.".format('snow'))
 
-print "And everywhere taht mary went."
+print("And everywhere taht mary went.")
 
-print "." * 10 # what'd that do?
+print("." * 10) # what'd that do?
 
 end1 = "C"
 
@@ -30,9 +30,6 @@ end11 = "e"
 
 end12 = "r"
 
-print end1 + end2 + end3 + end4 + end5 + end6,
+print(end1 + end2 + end3 + end4 + end5 + end6,end=' ')
 
-
-print end7 + end8 + end9 + end10 + end11 + end12
-
-print "import things say thress times!" * 3
+print(end7 + end8 + end9 + end10 + end11 + end12)

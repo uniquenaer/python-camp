@@ -1,10 +1,12 @@
 # Python 入门
 
-## 字符串格式化
+## python2 
+
+### 字符串格式化
 
 [Python补充05 字符串格式化 (%操作符) - Vamei - 博客园](http://www.cnblogs.com/vamei/archive/2013/03/12/2954938.html)
 
-### 格式符
+#### 格式符
 
 %s    字符串 (采用str()的显示)
 
@@ -37,7 +39,7 @@
 
 %%    字符"%"
 
-### 语法
+#### 语法
 
 ```python
 
@@ -50,12 +52,12 @@ print formatter % ("one", "two" ,"three" , "four")
 
 ```
 
-## raw_input
+### raw_input
 
 > 获取控制台的输入
 
 
-### 函数语法
+#### 函数语法
 
 raw_input([prompt])
 
@@ -71,9 +73,9 @@ input:123
 
 ```
 
-## 参数、解包、变量
+### 参数、解包、变量
 
-## 读写文件
+### 读写文件
 
 close 关闭文件
 
@@ -84,3 +86,24 @@ readline 读取文本文件第一行
 truncate 清空文件
 
 write(stuff)  将stuff写入文件
+
+## Python3
+
+### 变量
+
+```python
+my_chinese_name = "nana"
+
+my_name = "Zed A. Shaw"
+
+print(f"{my_chinese_name}")
+
+print(f"Let's talk about {my_name}.")
+
+hilarious = False
+
+joke_evaluation = "Isn't that joke so funny?! {}"
+
+print(joke_evaluation.format(hilarious))
+
+```
